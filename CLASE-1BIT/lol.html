@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nose</title>
+</head>
+<body>
+    <form action="" >
+        <label>Nombre</label>
+        <input id="nombre" type="text" placeholder="Ingresa Nombre">
+        <label>Apellidos</label>
+        <input id="apellido" type="text" placeholder="Ingresa Apellidos">
+    </form><br>
+    <form action="">
+        <label>Tipo de Documetno</label>
+        <input onclick="documento('CC')" type="radio" name="" value="CC">CC
+        <input onclick="documento('CE')" type="radio" name="" value="CE">CE
+        <input onclick="documento('NIT')" type="radio" name="" value="NIT">NIT <br><br>
+        <label>¿Ha tenido contacto con alguien positivo en covid?</label>
+        <input onclick="documento('si')" type="radio" id="si" value="si">SI
+        <input onclick="documento('no')" type="radio" id="no" value="no">NO <br><br>
+        <label>¿Ha presentado algún síntoma relacionado al covid-19?</label>
+        <input onclick="documento('aja')" type="radio" id="aja" value="si">SI
+        <input onclick="documento('nopi')" type="radio" id="nopi" value="no">NO <br> <br>
+        <button onclick="encuesta2()">Enviar</button><br><br>
+    </form> <br><br>
+    
+    <table>
+        <tr>
+            <td>Edad</td>
+            <td>Nombre</td>
+            <td>Telefono</td>
+        </tr>
+        <tr>
+            <td edad></td>
+            <td name></td>
+            <td telefono></td>
+        </tr>
+    </table>
+        <script src="js/lol.js"></script>
+</body>
+</html>

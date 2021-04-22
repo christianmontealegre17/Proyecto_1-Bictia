@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2? family = Josefin + Sans: wght @ 100 & display = swap');
+
+body{
+    margin: 50; background: rgb(32, 136, 92);
+}
+
+.bogota{
+    background: rgb(0, 0, 0);
+    outline-color: chartreuse;
+}
+
+.lol{
+    background: rgb(49, 6, 6);
+}
+
+#logo{
+    width:100px;
+}
+
+#gol{
+    width: 230px;
+}
+
+#palabra{
+    font-size: 50rem;
+    font-family: 'Josefin Sans', sans-serif;
+}

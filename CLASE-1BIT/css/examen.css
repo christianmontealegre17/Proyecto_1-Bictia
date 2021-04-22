@@ -1,0 +1,45 @@
+.contenedor-flex{
+    width: 100%;
+    display: flex;       
+    flex-wrap: wrap;
+    background-color: rgb(151, 45, 68);             
+}
+
+.elemento{    
+    width: 25%;    
+    height: 20px;
+    border: 1px solid rgb(168, 38, 162);
+    background-color: rgb(131, 56, 175);    
+    text-align: center;
+}
+
+.tabla{
+    background-color: forestgreen;
+}
+
+
+body{
+    margin: 50; background: rgb(167, 26, 73);
+}
+
+.bogota{
+    background: rgb(165, 36, 85);
+    outline-color: chartreuse;
+}
+
+.lol{
+    background: rgb(49, 6, 6);
+}
+
+#logo{
+    width:100px;
+}
+
+#gol{
+    width: 230px;
+}
+
+#palabra{
+    font-size: 50rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
